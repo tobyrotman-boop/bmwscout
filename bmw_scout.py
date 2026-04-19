@@ -6,8 +6,9 @@ import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-SENDER_EMAIL = "diamondnightsdues@gmail.com" 
-SENDER_PASSWORD = "zbvc slvi ehea jmsh"
+import os
+SENDER_EMAIL = os.environ.get('SENDER_EMAIL', 'diamondnightsdues@gmail.com')
+SENDER_PASSWORD = os.environ.get('SENDER_PASSWORD', '')
 RECIPIENTS = ["tobyrotman@gmail.com"]
 
 def load_previous_ids():
