@@ -132,5 +132,9 @@ previous_ids = load_previous_ids()
 listings = search_cargurus()
 print(f"Found {len(listings)} listings")
 save_json(listings, previous_ids)
-body = format_email(listings, previous_ids)
-send_email(body)
+new_listings = [l for l in listings if l.get('listingId', '') not in previous_ids]
+if new_listings:
+    body = format_email(new_listings, previous_ids)
+    send_email(body)
+else:
+    print("No new listings, skipping email.")
