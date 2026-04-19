@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 import os
 SENDER_EMAIL = os.environ.get('SENDER_EMAIL', 'diamondnightsdues@gmail.com')
 SENDER_PASSWORD = os.environ.get('SENDER_PASSWORD', '')
-RECIPIENTS = ["tobyrotman@gmail.com"]
+RECIPIENTS = ["tobyrotman@gmail.com","lindsey.leggett@gmail.com"]
 
 def load_previous_ids():
     try:
