@@ -8,7 +8,7 @@ from email.mime.multipart import MIMEMultipart
 
 SENDER_EMAIL = "diamondnightsdues@gmail.com" 
 SENDER_PASSWORD = "zbvc slvi ehea jmsh"
-RECIPIENTS = ["tobyrotman@gmail.com", "lindsey.leggett@gmail.com"]
+RECIPIENTS = ["tobyrotman@gmail.com"]
 
 def search_cargurus():
     url = "https://www.cargurus.com/search?sourceContext=carGurusHomePageModel&makeModelTrimPaths=m3%2Fd393%2Cm3%2Fd2120&newUsed=2&startYear=2024&endYear=2025&maxPrice=60000&isDeliveryEnabled=false&priceDropsOnly=false&maxMileage=35000&hideNationwideShipping=true&distance=200&nonShippableBaseline=15&sortDirection=ASC&sortType=BEST_MATCH&zip=94939"
@@ -29,6 +29,9 @@ def search_cargurus():
     listings = json.loads(raw)
     return [l for l in listings if 'sDrive' not in l.get('trim', '')]
 
+def make_url(listing_id):
+    return f"https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId={listing_id}#listing={listing_id}"
+
 def save_json(listings):
     preferred_colors = ['black', 'white', 'gray', 'grey', 'silver']
     now = datetime.datetime.now().isoformat()
@@ -47,7 +50,7 @@ def save_json(listings):
             'deal': l.get('dealFinderRating', 'N/A'),
             'vin': l.get('vin', 'N/A'),
             'listingId': l.get('listingId', ''),
-            'url': f"https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing={l.get('listingId', '')}",
+            'url': make_url(l.get('listingId', '')),
             'imageUrl': l.get('imageUrl', ''),
             'lastUpdated': now
         })
@@ -62,7 +65,6 @@ def format_email(listings):
     body = f"BMW X5 Scout — {len(listings)} AWD listings found today\n\n"
     
     for l in listings:
-        listing_url = f"https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing={l.get('listingId', '')}"
         color = l.get('exteriorColor', 'Not listed')
         color_flag = " ✓" if any(c in color.lower() for c in preferred_colors) else ""
         
@@ -73,11 +75,14 @@ def format_email(listings):
         body += f"  Location: {l.get('cityRegion', 'Not listed')}\n"
         body += f"  Deal:     {l.get('dealFinderRating', 'N/A')}\n"
         body += f"  VIN:      {l.get('vin', 'N/A')}\n"
-        body += f"  Link:     {listing_url}\n\n"
+        body += f"  Link:     {make_url(l.get('listingId', ''))}\n\n"
     
     return body
 
 def send_email(body):
+    if not RECIPIENTS:
+        print("No recipients set, skipping email.")
+        return
     msg = MIMEMultipart()
     msg['From'] = SENDER_EMAIL
     msg['To'] = ", ".join(RECIPIENTS)

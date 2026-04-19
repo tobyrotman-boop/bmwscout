@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:45:24.060150",
+  "lastUpdated": "2026-04-19T11:22:27.212595",
   "listings": [
     {
       "year": 2024,
@@ -12,9 +12,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX43EU07R9T80753",
       "listingId": 435808803,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=435808803",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=435808803#listing=435808803",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/02/25/13/29/2024_bmw_x5-pic-8268312560823707195-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -27,9 +27,9 @@
       "deal": "GOOD_PRICE",
       "vin": "5UX23EU01R9V57675",
       "listingId": 442503191,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=442503191",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=442503191#listing=442503191",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/03/24/17/16/2024_bmw_x5-pic-8617761214995590173-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -42,9 +42,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX43EU00R9S59921",
       "listingId": 445051783,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445051783",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445051783#listing=445051783",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/12/01/55/2024_bmw_x5-pic-1365869086136455167-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -57,9 +57,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX23EU00R9S65015",
       "listingId": 445345348,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445345348",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445345348#listing=445345348",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/15/12/23/2024_bmw_x5-pic-3125392351909281881-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -72,9 +72,9 @@
       "deal": "POOR_PRICE",
       "vin": "5UX23EU02R9T19611",
       "listingId": 445051691,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445051691",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445051691#listing=445051691",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/16/07/11/2024_bmw_x5-pic-6786266500294437744-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -87,9 +87,9 @@
       "deal": "GOOD_PRICE",
       "vin": "5UX43EU03R9T50696",
       "listingId": 445399870,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445399870",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445399870#listing=445399870",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/15/20/13/2024_bmw_x5-pic-1855964157076699143-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -102,9 +102,24 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX23EU04R9T70074",
       "listingId": 445093739,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445093739",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445093739#listing=445093739",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/15/02/57/2024_bmw_x5-pic-73974877190495127-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
+    },
+    {
+      "year": 2024,
+      "trim": "xDrive40i AWD",
+      "price": 54412,
+      "mileage": 30268,
+      "exteriorColor": "Tanzanite Blue II Metallic",
+      "preferredColor": false,
+      "location": "Modesto, CA",
+      "deal": "GOOD_PRICE",
+      "vin": "5UX23EU03R9V37198",
+      "listingId": 443850484,
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=443850484#listing=443850484",
+      "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/09/00/20/2024_bmw_x5-pic-5384906562826220988-1024x768.jpeg",
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -117,9 +132,9 @@
       "deal": "GOOD_PRICE",
       "vin": "5UX23EU01R9U39187",
       "listingId": 443013284,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=443013284",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=443013284#listing=443013284",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/03/29/09/08/2024_bmw_x5-pic-896474399911071207-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -132,9 +147,9 @@
       "deal": "GREAT_PRICE",
       "vin": "5UX43EU0XR9T16870",
       "listingId": 438829337,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=438829337",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=438829337#listing=438829337",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/03/17/20/59/2024_bmw_x5-pic-8059138580244680342-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -147,9 +162,9 @@
       "deal": "GOOD_PRICE",
       "vin": "5UX43EU09R9S59111",
       "listingId": 444244744,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=444244744",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=444244744#listing=444244744",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/14/00/54/2024_bmw_x5-pic-6677780747484776025-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -162,9 +177,9 @@
       "deal": "GOOD_PRICE",
       "vin": "5UX23EU09R9S43191",
       "listingId": 444244746,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=444244746",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=444244746#listing=444244746",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/08/20/06/2024_bmw_x5-pic-214231910159047346-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -177,9 +192,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX23EU02R9U59643",
       "listingId": 441462095,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=441462095",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=441462095#listing=441462095",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/03/06/11/16/2024_bmw_x5-pic-4674283783324994001-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -192,9 +207,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX23EU09R9T14955",
       "listingId": 445617567,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445617567",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445617567#listing=445617567",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/18/03/23/2024_bmw_x5-pic-745538364739343122-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -207,9 +222,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX23EU09R9T81684",
       "listingId": 442196478,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=442196478",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=442196478#listing=442196478",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/03/26/04/06/2024_bmw_x5-pic-917753539473869328-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     },
     {
       "year": 2024,
@@ -222,9 +237,9 @@
       "deal": "FAIR_PRICE",
       "vin": "5UX23EU00R9T56205",
       "listingId": 445079348,
-      "url": "https://www.cargurus.com/Cars/new/nl_BMW_X5_d2217#listing=445079348",
+      "url": "https://www.cargurus.com/Cars/inventorylisting/vdp.action?listingId=445079348#listing=445079348",
       "imageUrl": "https://static.cargurus.com/images/forsale/2026/04/15/11/44/2024_bmw_x5-pic-8448907290117946576-1024x768.jpeg",
-      "lastUpdated": "2026-04-19T10:45:24.060150"
+      "lastUpdated": "2026-04-19T11:22:27.212595"
     }
   ]
 }
